@@ -1,66 +1,68 @@
 html {
   width: 100%;
   height: 100%;
+  position: relative;
+  background-color: #f6f6f6;
+
 }
 
 body {
-  width: 100%;
-  height: 100%;
-  background-color: #f6f6f6;
+  display: block;
 }
 
 .avatar {
   position: relative;
-  margin: 0 auto;
-  margin-top: 180px;
-  width: 296px;
-  height: 228px;
-  border: 2px solid white;
+  margin: 220px auto;
+  width: 300px;
+  height: 232px;
   background-color: white;
   border-radius: 10px 10px;
+  box-shadow: 0px 1px 2px 0px rgb(228, 228, 228);
 
 }
 
 .photo {
-  margin: 0 auto;
-  margin-top: -73px;
+  box-sizing: border-box;
   width: 140px;
   height: 140px;
+  margin: -70px 80px;
   border-radius: 50%;
+  border: 1px rgb(217, 217, 217);
   overflow: hidden;
-  border: 1px solid #727272;
+  position: absolute;
+  box-shadow: 0px 0px 0px 1px rgb(193, 193, 193);
+
 }
 
 .block {
   position: absolute;
-  width: 100%;
-  bottom: -2px;
-  height: 77px;
+  bottom: 0;
+  width: 300px;
+  height: 78px;
   background-color: #33c1e3;
   border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 1px 2px 0px rgb(228, 228, 228);
+
 }
 
-
-
 .name {
-display: block;
+position: absolute;
+margin: 86px 47px;
 width: 70%;
-padding-top: 15px;
-padding-left: 44px;
-line-height: 26px;
+line-height: 120%;
 font-family: "FiraSans";
 font-size: 23px;
 text-align: center;
-color: #727272;
+color: #414141;
 }
 
 .link {
   display: block;
-  margin-top: 15px;
+  margin-top: 19px;
   margin-left: 80px;
-  padding-top: 13px;
-  padding-bottom: 9px;
-  padding-left: 11px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 15px;
   width: 122px;
   font-family: "FiraSans";
   font-size: 14px;
@@ -68,4 +70,39 @@ color: #727272;
   color: white;
   border: 2px solid white;
   border-radius: 20px 20px 20px 20px;
+}
+
+.link:hover {
+  display: block;
+  margin-top: 19px;
+  margin-left: 80px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  width: 122px;
+  font-family: "FiraSans";
+  font-size: 14px;
+  text-decoration: none;
+  color: #33c1e3;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  height: 77px;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+
+.smallava {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border: 1px solid #f6f6f6;
+  border-radius: 40px 40px 40px 40px;
+  margin-left: 170px;
+  margin-top: 8px;
 }
